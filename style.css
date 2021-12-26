@@ -103,3 +103,51 @@ button {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.information {
+    margin-top: 6vh;
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.information-header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-card-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
+.card-container {
+    max-width: 170px;
+    max-height: 220px;
+    color: #565757;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0.8vh;
+}
