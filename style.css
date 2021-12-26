@@ -43,7 +43,7 @@ button {
 .header, .title, .logo-stuff,
 .header-container, .header-text-container, .image-placeholder,
 .information, .information-header, .card, .quote, .quote-under-text,
-.signup, .signup-container, .footer {
+.signup, .signup-container, .signup-placeholder, .footer {
     display: flex;
 }
 
