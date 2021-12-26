@@ -112,6 +112,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    margin-bottom: 11vh;
 }
 
 .information-header {
@@ -150,4 +151,37 @@ button {
     height: 150px;
     width: 150px;
     margin-bottom: 0.8vh;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding-top: 13vh;
+    padding-bottom: 10vh;
+}
+
+.quote-main-text {
+    font-size: 36px;
+    flex-wrap: wrap;
+    max-width: 770px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quote-under-text {
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-self: flex-end;
+    max-width: 770px;
+    flex-wrap: wrap;
+    margin-top: 0.5vh;
 }
