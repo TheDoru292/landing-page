@@ -6,24 +6,6 @@ body {
     padding: 0;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    color: #fff;
-    padding: 2vh 20vh;
-}
-
-.title {
-    display: flex;
-    flex: 1;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-    color: #F9FaF8;
-    font-weight: 950;
-}
-
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -46,22 +28,6 @@ p {
     padding: 0;
 }
 
-.logo-stuff {
-    display: flex;
-    flex-direction: row;
-}
-
-.header-container {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    gap: 100px;
-}
-
 button {
     margin-top: 1.5vh;
     display: flex;
@@ -74,9 +40,45 @@ button {
     border-radius: 6px;
 }
 
-.header-text-container {
+.header, .title, .logo-stuff,
+.header-container, .header-text-container, .image-placeholder,
+.information, .information-header, .card, .quote, .quote-under-text,
+.signup, .signup-container, .footer {
     display: flex;
+}
+
+.logo-stuff, .header-container, .header-text-container, .image-placeholder,
+.signup-placeholder {
     flex-direction: row;
+}
+
+
+.header {
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #fff;
+    padding: 2vh 20vh;
+}
+
+.title {
+    flex: 1;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #F9FaF8;
+    font-weight: 950;
+}
+
+.header-container {
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap: 100px;
+}
+
+.header-text-container {
     flex-wrap: wrap;
     flex: 1;
     max-width: 500px;
@@ -88,11 +90,9 @@ button {
 }
 
 .image-placeholder {
-    display: flex;
     max-width: 500px;
     max-height: 420px;
     flex: 1;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgba(161, 161, 161, 0.925);
@@ -107,7 +107,6 @@ button {
 .information {
     margin-top: 6vh;
     background-color: #fff;
-    display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +115,6 @@ button {
 }
 
 .information-header {
-    display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +141,6 @@ button {
 }
 
 .card {
-    display: flex;
     justify-content: center;
     align-items: center;
     border: 4px solid #3882F6;
@@ -154,7 +151,6 @@ button {
 }
 
 .quote {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -174,7 +170,6 @@ button {
 }
 
 .quote-under-text {
-    display: flex;
     flex: 1;
     font-size: 20px;
     color: #1F2937;
@@ -188,7 +183,6 @@ button {
 
 .signup {
     background: #fff;
-    display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -200,15 +194,12 @@ button {
 
 .signup-container {
     background: #3882F6;
-    display: flex;
     flex: 1;
     border: 1px solid #3882F6;
     border-radius: 10px;
 }
 
 .signup-placeholder {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     padding: 4.3vh 20vh;
 
@@ -237,7 +228,6 @@ button {
 .footer {
     background: #1F2937;
     color: #fff;
-    display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
