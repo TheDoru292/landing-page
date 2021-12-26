@@ -185,3 +185,51 @@ button {
     flex-wrap: wrap;
     margin-top: 0.5vh;
 }
+
+.signup {
+    background: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: #fff
+}
+
+.signup-container {
+    background: #3882F6;
+    display: flex;
+    flex: 1;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+
+.signup-placeholder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4.3vh 20vh;
+
+}
+
+.signup-text-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin-right: 1vh;
+}
+
+.signup-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.signup-button {
+    margin: 2px 2px;
+    border: 2px solid #fff;
+    align-self: center;
+    justify-self: center;
+    margin-left: 6vh;
+}
