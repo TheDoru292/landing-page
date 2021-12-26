@@ -233,3 +233,14 @@ button {
     justify-self: center;
     margin-left: 6vh;
 }
+
+.footer {
+    background: #1F2937;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    font-size: 18px;
+}
